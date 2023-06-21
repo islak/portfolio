@@ -1,0 +1,81 @@
+/* General styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  #navbar ul li {
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Welcome section styles */
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-text {
+    text-align: center;
+  }
+  
+  /* Projects section styles */
+  
+  #projects {
+    padding: 40px;
+  }
+  
+  .project-tile {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Media query */
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #navbar ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    #welcome-section {
+      height: 70vh;
+    }
+  }
+  
